@@ -24,5 +24,15 @@ namespace HelloWord
         {
             InitializeComponent();
         }
+
+        private void btnGo_Click(object sender, RoutedEventArgs e)
+        {
+            txtShow.Text = "Hello World!";
+        }
+
+        private void txtShow_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            txtShow.Text = "Hello World!";
+        }
     }
 }
